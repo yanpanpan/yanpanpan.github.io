@@ -21,8 +21,7 @@
 title: ppy.tips
 email: yan.outside@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  iOS 开发技术学习/Android 开发学习/flutter 开发学习/go 开发学习
-  移动应用/服务端开发架构设计与一致性
+  移动应用/服务端一致性与架构设计
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ppy.tips" 
 twitter_username: jekyllrb
