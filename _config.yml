@@ -21,9 +21,8 @@
 title: ppy.tips
 email: yan.outside@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  iOS 开发技术学习/Android 开发学习/flutter 开发学习/go 开发学习
+  移动应用/服务端开发架构设计与一致性
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ppy.tips" 
 twitter_username: jekyllrb
