@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2020-05-25T22:32:40+08:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">ppy.tips</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-24T22:42:58+08:00</published><updated>2020-05-24T22:42:58+08:00</updated><id>http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">等宽字体与比例字体，解决文字闪烁</title><link href="http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html" rel="alternate" type="text/html" title="等宽字体与比例字体，解决文字闪烁" /><published>2020-05-24T19:52:47+08:00</published><updated>2020-05-24T19:52:47+08:00</updated><id>http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93,%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html">&lt;p&gt;refer: &lt;a href=&quot;https://blog.usejournal.com/proportional-vs-monospaced-numbers-when-to-use-which-one-in-order-to-avoid-wiggling-labels-e31b1c83e4d0&quot;&gt;Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-25T22:50:20+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ppy.tips</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">等宽字体与比例字体，解决文字闪烁</title><link href="http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html" rel="alternate" type="text/html" title="等宽字体与比例字体，解决文字闪烁" /><published>2020-05-24T19:52:47+08:00</published><updated>2020-05-24T19:52:47+08:00</updated><id>http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93,%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html">&lt;p&gt;refer: &lt;a href=&quot;https://blog.usejournal.com/proportional-vs-monospaced-numbers-when-to-use-which-one-in-order-to-avoid-wiggling-labels-e31b1c83e4d0&quot;&gt;Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;定义&quot;&gt;定义&lt;/h2&gt;
 
@@ -92,14 +76,12 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;但是也要注意，可能有些字体不支持等宽数字。这种情况下就可以使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NSAttributedString&lt;/code&gt;, 数字部分使用等宽字符。&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">refer: Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”</summary></entry><entry><title type="html">iOS推送通知后台模式</title><link href="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" rel="alternate" type="text/html" title="iOS推送通知后台模式" /><published>2018-05-15T20:01:20+08:00</published><updated>2018-05-15T20:01:20+08:00</updated><id>http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html">&lt;h1 id=&quot;ios推送通知后台模式&quot;&gt;iOS推送通知后台模式&lt;/h1&gt;
-
-&lt;p&gt;refer to: &lt;a href=&quot;https://samwize.com/2015/08/07/how-to-handle-remote-notification-with-background-mode-enabled/&quot;&gt;How to handle remote notification with background mode enabled&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">refer: Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”</summary></entry><entry><title type="html">iOS推送通知后台模式</title><link href="http://localhost:4000/jekyll/update/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" rel="alternate" type="text/html" title="iOS推送通知后台模式" /><published>2018-05-15T20:01:20+08:00</published><updated>2018-05-15T20:01:20+08:00</updated><id>http://localhost:4000/jekyll/update/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html">&lt;p&gt;refer to: &lt;a href=&quot;https://samwize.com/2015/08/07/how-to-handle-remote-notification-with-background-mode-enabled/&quot;&gt;How to handle remote notification with background mode enabled&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;这些年iOS推送功能已进化非常强大，从只能简单提示一串文字，到如今包括自定义事件、本地化文字、后台模式，已是一套成熟的系统。
 这篇文章描述了一条通知到达设备，发生的一切。&lt;/p&gt;
 
-&lt;h2 id=&quot;调用了哪一个代理方法&quot;&gt;调用了哪一个代理方法？&lt;/h2&gt;
+&lt;h2 id=&quot;调用了哪一个代理方法&quot;&gt;调用了哪一个代理方法&lt;/h2&gt;
 
 &lt;p&gt;那是推送到达设备时应回答的问题。&lt;/p&gt;
 
@@ -126,6 +108,7 @@
 &lt;p&gt;An advanced topic we shelf off for now.&lt;/p&gt;
 
 &lt;h2 id=&quot;配置payload-和-静默推送&quot;&gt;配置payload 和 静默推送&lt;/h2&gt;
+
 &lt;p&gt;推送通知 payload 组成如下:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -138,6 +121,7 @@
 &lt;p&gt;content-available键是一个新特性，而且就是这个键式静默推送成为可能。如果要静默推送，你太同时需要在“Capabilities”的UIBackgroundModes中添加remote-notifcation。&lt;/p&gt;
 
 &lt;p&gt;当ontent-available存在payload中时：&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;如果应用Suspended，系统会使它进入Background运行模式&lt;/li&gt;
   &lt;li&gt;如果应用被用户杀死，什么事都不会发生，并且应用无法运行读取应用状态&lt;/li&gt;
@@ -152,7 +136,7 @@
 
 &lt;h2 id=&quot;不同场景&quot;&gt;不同场景&lt;/h2&gt;
 
-&lt;h4 id=&quot;content-available启用时&quot;&gt;content-available启用时：&lt;/h4&gt;
+&lt;h4 id=&quot;content-available启用时&quot;&gt;content-available启用时&lt;/h4&gt;
 
 &lt;h4 id=&quot;应用处于foreground&quot;&gt;应用处于Foreground&lt;/h4&gt;
 
@@ -160,24 +144,29 @@
 
 &lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
 &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/p&gt;
+
 &lt;h4 id=&quot;应用处于-background&quot;&gt;应用处于 Background&lt;/h4&gt;
+
 &lt;p&gt;系统会弹出提示框&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 7）被调用&lt;/p&gt;
+
 &lt;h4 id=&quot;应用处于-suspended&quot;&gt;应用处于 Suspended&lt;/h4&gt;
+
 &lt;p&gt;应用状态会变为Background&lt;/p&gt;
 
 &lt;p&gt;系统会弹出提示框&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
 &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/p&gt;
+
 &lt;h4 id=&quot;应用被用户杀死&quot;&gt;应用被用户杀死&lt;/h4&gt;
 
 &lt;p&gt;系统会弹出提示框&lt;/p&gt;
 
 &lt;p&gt;不会有回掉&lt;/p&gt;
 
-&lt;h3 id=&quot;content-available未启用时-键被移除&quot;&gt;content-available未启用时 (键被移除):&lt;/h3&gt;
+&lt;h3 id=&quot;content-available未启用时-键被移除&quot;&gt;content-available未启用时 (键被移除)&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;应用处于Foreground
@@ -192,7 +181,7 @@
   &lt;li&gt;应用没有runing时
 系统会弹出提示框
 不会有回调，但是用户点击推送打开应用时
-先调用&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didFinishLaunchingWithOptions:)_&lt;/span&gt; 
+先调用&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didFinishLaunchingWithOptions:)_&lt;/span&gt;
 然后&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
 &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/li&gt;
 &lt;/ul&gt;
@@ -216,15 +205,75 @@
 
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//所有后台处理&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    
+
     &lt;span class=&quot;c1&quot;&gt;//对应的UIBackgroundFetchResult&lt;/span&gt;
     &lt;span class=&quot;nf&quot;&gt;completionHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIBackgroundFetchResult&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;//iOS &amp;lt; 10 用户点击通知消息处理&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ProcessInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;processInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;operatingSystemVersion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;majorVersion&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    
+
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:willPresent:withCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 10）&lt;/p&gt;</content><author><name></name></author><summary type="html">iOS推送通知后台模式</summary></entry></feed>
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:willPresent:withCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 10）&lt;/p&gt;</content><author><name></name></author><summary type="html">refer to: How to handle remote notification with background mode enabled</summary></entry><entry><title type="html">私有Pods</title><link href="http://localhost:4000/jekyll/update/2018/03/14/%E7%A7%81%E6%9C%89Pods.html" rel="alternate" type="text/html" title="私有Pods" /><published>2018-03-14T21:54:49+08:00</published><updated>2018-03-14T21:54:49+08:00</updated><id>http://localhost:4000/jekyll/update/2018/03/14/%E7%A7%81%E6%9C%89Pods</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/03/14/%E7%A7%81%E6%9C%89Pods.html">&lt;p&gt;refer to : &lt;a href=&quot;https://guides.cocoapods.org/making/private-cocoapods&quot;&gt;Cocoapods.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1在服务器或者github创建私有spec仓库&quot;&gt;1.在服务器或者GitHub创建私有spec仓库&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;SPECS_NAME
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;SPECS_NAME
+git init &lt;span class=&quot;nt&quot;&gt;--bare&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&quot;2本地将私有spec仓库添加到cocoapods的安装&quot;&gt;2.本地将私有spec仓库添加到CocoaPods的安装&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod repo add REPO_NAME SPECS_SOURCE_URL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;检查安装是否成功：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/.cocoapods/repos/REPO_NAME
+pod repo lint &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;3把自己的podspec添加到spec-repo中&quot;&gt;3.把自己的Podspec添加到spec repo中&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod repo push REPO_NAME SPEC_NAME.podspec
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;示例JLRoutes.podspec文件：&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Pod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Spec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;JLRoutes&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;version&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2.1&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;summary&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;URL routing library for iOS with a simple block-based API.&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;homepage&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/joeldev/JLRoutes&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;license&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;BSD 3-Clause &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;New&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; License&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;author&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Joel Levin&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;joel@joeldev.com&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;source&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/joeldev/JLRoutes.git&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:tag&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2.1&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;framework&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Foundation'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;requires_arc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;source_files&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'JLRoutes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'JLRoutes/*.{h,m}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'JLRoutes/Classes/*.{h,m}'&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deployment_target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'8.0'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;osx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deployment_target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'10.10'&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tvos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deployment_target&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'9.0'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;4使用私有的pod&quot;&gt;4.使用私有的pod&lt;/h2&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'SPECS_SOURCE_URL'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如果同时要使用Cocoapods的默认source&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://github.com/CocoaPods/Specs.git'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;-the-repo-ppy-specs-at--is-not-clean&quot;&gt;[!] The repo &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ppy-specs&lt;/code&gt; at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt; is not clean&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;即使是.gitignore文件也不能存在，ppy-specs文件夹必须保证绝对干净。&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">refer to : Cocoapods.org</summary></entry></feed>
