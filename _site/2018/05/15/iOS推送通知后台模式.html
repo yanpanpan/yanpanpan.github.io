@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>iOS推送通知后台模式 | ppy.tips</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="iOS推送通知后台模式" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="iOS推送通知后台模式" />
+<meta property="og:description" content="iOS推送通知后台模式" />
+<link rel="canonical" href="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" />
+<meta property="og:site_name" content="ppy.tips" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-15T20:01:20+08:00" />
+<script type="application/ld+json">
+{"headline":"iOS推送通知后台模式","dateModified":"2018-05-15T20:01:20+08:00","datePublished":"2018-05-15T20:01:20+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html"},"description":"iOS推送通知后台模式","@type":"BlogPosting","url":"http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="ppy.tips" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">ppy.tips</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">iOS推送通知后台模式</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-05-15T20:01:20+08:00" itemprop="datePublished">May 15, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="ios推送通知后台模式">iOS推送通知后台模式</h1>
+
+<p>refer to: <a href="https://samwize.com/2015/08/07/how-to-handle-remote-notification-with-background-mode-enabled/">How to handle remote notification with background mode enabled</a></p>
+
+<p>这些年iOS推送功能已进化非常强大，从只能简单提示一串文字，到如今包括自定义事件、本地化文字、后台模式，已是一套成熟的系统。
+这篇文章描述了一条通知到达设备，发生的一切。</p>
+
+<h2 id="调用了哪一个代理方法">调用了哪一个代理方法？</h2>
+
+<p>那是推送到达设备时应回答的问题。</p>
+
+<p>四个的回调：</p>
+
+<blockquote>
+  <p>application(_:didReceiveRemoteNotification:)</p>
+
+  <p>application(_:didReceiveRemoteNotification:fetchCompletionHandler:)</p>
+
+  <p>userNotificationCenter(_:willPresent:withCompletionHandler:) (iOS 10.0, *)</p>
+
+  <p>NO callback</p>
+</blockquote>
+
+<p>UIApplicationDelegate中还有其它回调方法，但除非有必要，不然这个讨论中忽略掉。详细的如下：</p>
+
+<p>当打开通知的时候调用:</p>
+
+<p><span style="color:#dff3fd;background-color:#00b5ff"><em>application:didReceiveRemoteNotification:</em></span> （iOS 3.0）-  这是原始API。现在已被<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span>（iOS 7.0）取代。
+<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:handleActionWithIdentifier:forRemoteNotification:completionHandler:)_</span>（iOS 8-10）支持自定义通知事件
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span> (iOS &gt;= 10) 支持自定义通知事件</p>
+
+<p>An advanced topic we shelf off for now.</p>
+
+<h2 id="配置payload-和-静默推送">配置payload 和 静默推送</h2>
+<p>推送通知 payload 组成如下:</p>
+
+<ul>
+  <li>alert - the alert string and actions</li>
+  <li>badge</li>
+  <li>sound</li>
+  <li>content-available</li>
+</ul>
+
+<p>content-available键是一个新特性，而且就是这个键式静默推送成为可能。如果要静默推送，你太同时需要在“Capabilities”的UIBackgroundModes中添加remote-notifcation。</p>
+
+<p>当ontent-available存在payload中时：</p>
+<ul>
+  <li>如果应用Suspended，系统会使它进入Background运行模式</li>
+  <li>如果应用被用户杀死，什么事都不会发生，并且应用无法运行读取应用状态</li>
+</ul>
+
+<p>A potential is pitfall:</p>
+<blockquote>
+  <p>注意事项：</p>
+
+  <p>content-available=1开启静默推送，但是关闭静默推送并不是content-available=0。而是<span style="color:red">删掉</span>payload中的键。</p>
+</blockquote>
+
+<h2 id="不同场景">不同场景</h2>
+
+<h4 id="content-available启用时">content-available启用时：</h4>
+
+<h4 id="应用处于foreground">应用处于Foreground</h4>
+
+<p>没有弹出框</p>
+
+<p><span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）被调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10) 被调用</p>
+<h4 id="应用处于-background">应用处于 Background</h4>
+<p>系统会弹出提示框</p>
+
+<p><span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &gt;= 7）被调用</p>
+<h4 id="应用处于-suspended">应用处于 Suspended</h4>
+<p>应用状态会变为Background</p>
+
+<p>系统会弹出提示框</p>
+
+<p><span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）被调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10) 被调用</p>
+<h4 id="应用被用户杀死">应用被用户杀死</h4>
+
+<p>系统会弹出提示框</p>
+
+<p>不会有回掉</p>
+
+<h3 id="content-available未启用时-键被移除">content-available未启用时 (键被移除):</h3>
+
+<ul>
+  <li>应用处于Foreground
+没有提示框
+<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）被调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:willPresent:withCompletionHandler:)_</span> （iOS &gt;= 10）被调用</li>
+  <li>应用处于 Background 或者 Suspended
+系统会弹出提示框
+不会有回调，但是用户点击推送打开应用时
+<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）被调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10) 被调用</li>
+  <li>应用没有runing时
+系统会弹出提示框
+不会有回调，但是用户点击推送打开应用时
+先调用<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didFinishLaunchingWithOptions:)_</span> 
+然后<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）被调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10) 被调用</li>
+</ul>
+
+<h2 id="总结">总结</h2>
+
+<p>如果应用处于<em>Foreground</em>，系统不会弹出提示框。当调用<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:willPresent:withCompletionHandler:)_</span> （iOS &gt;= 10）后才呈现某些UI元素。</p>
+
+<p>启用content-available会使应用处于Background模式 (除非应用是被用户杀死) 然后调用 <span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10)</p>
+
+<p>若未启用 content-available, 应用会一直处于Suspended, 并且 <span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10) 不会被调用，除非用户点击推送。</p>
+
+<p>最后, <span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didFinishLaunchingWithOptions:)_</span>  只会在应用Not Runing时调用。用户点击推送，会调用
+<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）
+<span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:didReceive:withCompletionHandler:)_</span>  (iOS &gt;= 10)。所以：
+推送后台处理都在：<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span>。
+推送前台处理：<span style="color:#dff3fd;background-color:#00b5ff"><em>application(</em>:didReceiveRemoteNotification:fetchCompletionHandler:)_</span> （iOS &lt; 10）需要判断应用状态</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//所有后台处理</span>
+<span class="k">if</span> <span class="n">application</span><span class="o">.</span><span class="n">applicationState</span> <span class="o">==</span> <span class="o">.</span><span class="n">background</span> <span class="p">{</span>
+    
+    <span class="c1">//对应的UIBackgroundFetchResult</span>
+    <span class="nf">completionHandler</span><span class="p">(</span><span class="kt">UIBackgroundFetchResult</span><span class="o">.</span><span class="n">newData</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="c1">//iOS &lt; 10 用户点击通知消息处理</span>
+<span class="k">if</span> <span class="n">application</span><span class="o">.</span><span class="n">applicationState</span> <span class="o">!=</span> <span class="o">.</span><span class="n">background</span> <span class="o">&amp;&amp;</span> <span class="kt">ProcessInfo</span><span class="o">.</span><span class="n">processInfo</span><span class="o">.</span><span class="n">operatingSystemVersion</span><span class="o">.</span><span class="n">majorVersion</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">{</span>
+    
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><span style="color:#dff3fd;background-color:#00b5ff"><em>userNotificationCenter(</em>:willPresent:withCompletionHandler:)_</span> （iOS &gt;= 10）</p>
+
+  </div><a class="u-url" href="/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">ppy.tips</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">ppy.tips</li><li><a class="u-email" href="mailto:yan.outside@gmail.com">yan.outside@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/yan.outside%40gmail.com"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> <span class="username">yan.outside@gmail.com</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

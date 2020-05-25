@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-25T22:27:07+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ppy.tips</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/05/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-24T22:42:58+08:00</published><updated>2020-05-24T22:42:58+08:00</updated><id>http://localhost:4000/jekyll/update/2020/05/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2020-05-25T22:32:40+08:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">ppy.tips</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-24T22:42:58+08:00</published><updated>2020-05-24T22:42:58+08:00</updated><id>http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2020/05/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -14,7 +14,7 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">等宽字体与比例字体，解决文字闪烁</title><link href="http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html" rel="alternate" type="text/html" title="等宽字体与比例字体，解决文字闪烁" /><published>2020-05-24T19:52:47+08:00</published><updated>2020-05-24T19:52:47+08:00</updated><id>http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93,%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html">&lt;p&gt;refer: &lt;a href=&quot;https://blog.usejournal.com/proportional-vs-monospaced-numbers-when-to-use-which-one-in-order-to-avoid-wiggling-labels-e31b1c83e4d0&quot;&gt;Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">等宽字体与比例字体，解决文字闪烁</title><link href="http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html" rel="alternate" type="text/html" title="等宽字体与比例字体，解决文字闪烁" /><published>2020-05-24T19:52:47+08:00</published><updated>2020-05-24T19:52:47+08:00</updated><id>http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93,%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2020/05/24/%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E4%B8%8E%E6%AF%94%E4%BE%8B%E5%AD%97%E4%BD%93-%E8%A7%A3%E5%86%B3%E6%96%87%E5%AD%97%E9%97%AA%E7%83%81.html">&lt;p&gt;refer: &lt;a href=&quot;https://blog.usejournal.com/proportional-vs-monospaced-numbers-when-to-use-which-one-in-order-to-avoid-wiggling-labels-e31b1c83e4d0&quot;&gt;Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;定义&quot;&gt;定义&lt;/h2&gt;
 
@@ -92,4 +92,139 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;但是也要注意，可能有些字体不支持等宽数字。这种情况下就可以使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NSAttributedString&lt;/code&gt;, 数字部分使用等宽字符。&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">refer: Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">refer: Proportional vs. Monospaced Numbers: When to use which one in order to avoid “Wiggling Labels”</summary></entry><entry><title type="html">iOS推送通知后台模式</title><link href="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html" rel="alternate" type="text/html" title="iOS推送通知后台模式" /><published>2018-05-15T20:01:20+08:00</published><updated>2018-05-15T20:01:20+08:00</updated><id>http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F</id><content type="html" xml:base="http://localhost:4000/blog/2018/05/15/iOS%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E5%90%8E%E5%8F%B0%E6%A8%A1%E5%BC%8F.html">&lt;h1 id=&quot;ios推送通知后台模式&quot;&gt;iOS推送通知后台模式&lt;/h1&gt;
+
+&lt;p&gt;refer to: &lt;a href=&quot;https://samwize.com/2015/08/07/how-to-handle-remote-notification-with-background-mode-enabled/&quot;&gt;How to handle remote notification with background mode enabled&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;这些年iOS推送功能已进化非常强大，从只能简单提示一串文字，到如今包括自定义事件、本地化文字、后台模式，已是一套成熟的系统。
+这篇文章描述了一条通知到达设备，发生的一切。&lt;/p&gt;
+
+&lt;h2 id=&quot;调用了哪一个代理方法&quot;&gt;调用了哪一个代理方法？&lt;/h2&gt;
+
+&lt;p&gt;那是推送到达设备时应回答的问题。&lt;/p&gt;
+
+&lt;p&gt;四个的回调：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;application(_:didReceiveRemoteNotification:)&lt;/p&gt;
+
+  &lt;p&gt;application(_:didReceiveRemoteNotification:fetchCompletionHandler:)&lt;/p&gt;
+
+  &lt;p&gt;userNotificationCenter(_:willPresent:withCompletionHandler:) (iOS 10.0, *)&lt;/p&gt;
+
+  &lt;p&gt;NO callback&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;UIApplicationDelegate中还有其它回调方法，但除非有必要，不然这个讨论中忽略掉。详细的如下：&lt;/p&gt;
+
+&lt;p&gt;当打开通知的时候调用:&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application:didReceiveRemoteNotification:&lt;/em&gt;&lt;/span&gt; （iOS 3.0）-  这是原始API。现在已被&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt;（iOS 7.0）取代。
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:handleActionWithIdentifier:forRemoteNotification:completionHandler:)_&lt;/span&gt;（iOS 8-10）支持自定义通知事件
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt; (iOS &amp;gt;= 10) 支持自定义通知事件&lt;/p&gt;
+
+&lt;p&gt;An advanced topic we shelf off for now.&lt;/p&gt;
+
+&lt;h2 id=&quot;配置payload-和-静默推送&quot;&gt;配置payload 和 静默推送&lt;/h2&gt;
+&lt;p&gt;推送通知 payload 组成如下:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;alert - the alert string and actions&lt;/li&gt;
+  &lt;li&gt;badge&lt;/li&gt;
+  &lt;li&gt;sound&lt;/li&gt;
+  &lt;li&gt;content-available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;content-available键是一个新特性，而且就是这个键式静默推送成为可能。如果要静默推送，你太同时需要在“Capabilities”的UIBackgroundModes中添加remote-notifcation。&lt;/p&gt;
+
+&lt;p&gt;当ontent-available存在payload中时：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;如果应用Suspended，系统会使它进入Background运行模式&lt;/li&gt;
+  &lt;li&gt;如果应用被用户杀死，什么事都不会发生，并且应用无法运行读取应用状态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A potential is pitfall:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意事项：&lt;/p&gt;
+
+  &lt;p&gt;content-available=1开启静默推送，但是关闭静默推送并不是content-available=0。而是&lt;span style=&quot;color:red&quot;&gt;删掉&lt;/span&gt;payload中的键。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;不同场景&quot;&gt;不同场景&lt;/h2&gt;
+
+&lt;h4 id=&quot;content-available启用时&quot;&gt;content-available启用时：&lt;/h4&gt;
+
+&lt;h4 id=&quot;应用处于foreground&quot;&gt;应用处于Foreground&lt;/h4&gt;
+
+&lt;p&gt;没有弹出框&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/p&gt;
+&lt;h4 id=&quot;应用处于-background&quot;&gt;应用处于 Background&lt;/h4&gt;
+&lt;p&gt;系统会弹出提示框&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 7）被调用&lt;/p&gt;
+&lt;h4 id=&quot;应用处于-suspended&quot;&gt;应用处于 Suspended&lt;/h4&gt;
+&lt;p&gt;应用状态会变为Background&lt;/p&gt;
+
+&lt;p&gt;系统会弹出提示框&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/p&gt;
+&lt;h4 id=&quot;应用被用户杀死&quot;&gt;应用被用户杀死&lt;/h4&gt;
+
+&lt;p&gt;系统会弹出提示框&lt;/p&gt;
+
+&lt;p&gt;不会有回掉&lt;/p&gt;
+
+&lt;h3 id=&quot;content-available未启用时-键被移除&quot;&gt;content-available未启用时 (键被移除):&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;应用处于Foreground
+没有提示框
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:willPresent:withCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 10）被调用&lt;/li&gt;
+  &lt;li&gt;应用处于 Background 或者 Suspended
+系统会弹出提示框
+不会有回调，但是用户点击推送打开应用时
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/li&gt;
+  &lt;li&gt;应用没有runing时
+系统会弹出提示框
+不会有回调，但是用户点击推送打开应用时
+先调用&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didFinishLaunchingWithOptions:)_&lt;/span&gt; 
+然后&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）被调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 被调用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;如果应用处于&lt;em&gt;Foreground&lt;/em&gt;，系统不会弹出提示框。当调用&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:willPresent:withCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 10）后才呈现某些UI元素。&lt;/p&gt;
+
+&lt;p&gt;启用content-available会使应用处于Background模式 (除非应用是被用户杀死) 然后调用 &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10)&lt;/p&gt;
+
+&lt;p&gt;若未启用 content-available, 应用会一直处于Suspended, 并且 &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10) 不会被调用，除非用户点击推送。&lt;/p&gt;
+
+&lt;p&gt;最后, &lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didFinishLaunchingWithOptions:)_&lt;/span&gt;  只会在应用Not Runing时调用。用户点击推送，会调用
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）
+&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:didReceive:withCompletionHandler:)_&lt;/span&gt;  (iOS &amp;gt;= 10)。所以：
+推送后台处理都在：&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt;。
+推送前台处理：&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;application(&lt;/em&gt;:didReceiveRemoteNotification:fetchCompletionHandler:)_&lt;/span&gt; （iOS &amp;lt; 10）需要判断应用状态&lt;/p&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//所有后台处理&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;//对应的UIBackgroundFetchResult&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;completionHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;UIBackgroundFetchResult&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//iOS &amp;lt; 10 用户点击通知消息处理&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;applicationState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;ProcessInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;processInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;operatingSystemVersion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;majorVersion&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:#dff3fd;background-color:#00b5ff&quot;&gt;&lt;em&gt;userNotificationCenter(&lt;/em&gt;:willPresent:withCompletionHandler:)_&lt;/span&gt; （iOS &amp;gt;= 10）&lt;/p&gt;</content><author><name></name></author><summary type="html">iOS推送通知后台模式</summary></entry></feed>
